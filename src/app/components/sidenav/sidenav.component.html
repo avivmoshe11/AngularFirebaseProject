@@ -1,0 +1,14 @@
+<ul class="nav flex-column pt-3 bg-success h-100">
+  <li *ngFor="let navItem of navItems" class="mt-1 text-nowrap">
+    <a
+      [routerLink]="navItem.link"
+      routerLinkActive="active"
+      class="nav-link text-white"
+    >
+      <i *ngIf="navItem.icon" [class]="navItem.icon"></i>
+      <span [ngClass]="{ 'ms-3': navItem.icon }">
+        {{ navItem.title | titlecase }}
+      </span>
+    </a>
+  </li>
+</ul>

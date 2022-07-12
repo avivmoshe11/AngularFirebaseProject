@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angularprojectfinal-c9180": {
+      "hosting": {
+        "angularproject": [
+          "angularprojectfinal-c9180"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angularprojectfinal-c9180"
+  }
+}
